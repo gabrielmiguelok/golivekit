@@ -1,0 +1,44 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/dist/
+/bin/
+
+# Test artifacts
+*.test
+*.out
+coverage.txt
+coverage.html
+*.prof
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Go
+vendor/
+go.work
+go.work.sum
+
+# Build
+*.log
+tmp/
+.tmp/
+
+# Local dev
+.env
+.env.local
+*.local
+
+# Node (if using for client dev)
+node_modules/
